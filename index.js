@@ -2,9 +2,9 @@ let nomeDoHeroi = "Mulher Maravilha"
 let xpDoHeroi = "8000"
 let nivel = ""
 
-if (xpDoHeroi <= "1000"){
+if (xpDoHeroi > "1000" && xpDoHeroi <= "2000"){
     nivel = "Ferro"
-}else if (xpDoHeroi <= "2001"){
+}else if (xpDoHeroi > "2001" && xpDoHeroi <= "3000"){
     nivel = "Bronze"
 }else if (xpDoHeroi <= "3001"){
     nivel = "Prata"
